@@ -2,9 +2,16 @@
 @import "@heroui/styles"; 
 
 @theme {
-  --color-background: 0;
 }
 
 @utility gap-sm{
   @apply gap-3;
+}
+
+@utility gap-lg{
+  @apply gap-6;
+}
+
+@utility t-title{
+  @apply text-2xl;
 }
